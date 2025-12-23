@@ -22,7 +22,7 @@ CREATE TABLE Customers (
     address TEXT
 );
 
-REATE TABLE ORDERS (
+REATE TABLE Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_id INT,
     order_date DATE,
